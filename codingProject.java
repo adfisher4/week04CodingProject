@@ -125,14 +125,15 @@ public class codingProject {
 	public static boolean firstArrIsGreater (double[] nums1, double[] nums2) {
 		return getAvg(nums1) > getAvg(nums2);
 	}
-	
+	// Method 12.
 	public static boolean willBuyDrink (boolean isHotOutside, double moneyInPocket) {
 		if (isHotOutside && moneyInPocket >= 10.5) {
 			return true;
 		}
 		return false;
 	}
-	
+
+	// Method 13.
 	public static void countVotes (String[] votes) {
 		Map<String, Integer> votesMap = new HashMap<String, Integer>();
 		
